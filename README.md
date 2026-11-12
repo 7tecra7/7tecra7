@@ -34,6 +34,8 @@ A curated repository of verified zero-days, logic flaws, and protocol-level vuln
 
 | Protocol / Target Domain | Vulnerability Class (CWE / Industry Standard) | Severity | Impact Mitigated | Status |
 | --- | --- | --- | --- | --- |
+| **Solana / Agave** | CWE-862: Missing Authorization | Critical | Prevented Loss of Funds | Patched |
+| **Solana / Agave** | CWE-400: Uncontrolled Resource Consumption | High | Prevented Denial of Service (DoS) | Patched |
 | **BNB Chain** | CWE-20: Improper Input Validation / Message Framing Bypass | High | Prevented Data Availability Bypass | Patched |
 | **Cronos Blockchain** | CWE-285: Improper Authorization / Access Control Bypass | High | Prevented Permanent Chain Halt | Patched |
 | **Olas** | CWE-840: Business Logic Error / Oracle Price Manipulation | High | Prevented Oracle Manipulation & Exploitation | Patched |
